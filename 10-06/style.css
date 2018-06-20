@@ -1,0 +1,244 @@
+.main {
+    display: flex;
+}
+
+.wrapper {
+    display: flex-grow;
+    padding: 10px;
+}
+
+.top-wave {
+    position: relative;
+    height: 70px;
+    width: 600px;
+    background: gray;
+}
+
+.top-wave:before {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 340px;
+    height: 80px;
+    background-color:white;
+
+    right: 0;
+    top: 40px;
+}
+
+.top-wave:after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 300px;
+    height: 70px;
+    background-color: gray;
+    left: 0;
+    top: 27px;
+}
+
+.box-top {
+    width: 600px;
+    height: 150px;
+    background:white;
+    margin-bottom: 20px;
+}
+
+.divider {
+    width: 600px;
+    height: 20px;
+}
+
+#h1{
+    position:absolute;
+    top: -0.5em;
+}
+#h2{
+    position: absolute;
+    right: 20%;
+    top: 2em;
+}
+#sign{
+    position: absolute;
+    width: 10%;
+    top: 8em;
+}
+#face{
+    position: absolute;
+    width: 5%;
+    height: 4%;
+    top:10em;
+    left: 15%;
+}
+#goo{
+    position: absolute;
+    width: 5%;
+    height: 4%;
+    top:10em;
+    left: 21%;
+}
+#tw{
+    position: absolute;
+    width: 5%;
+    height: 4%;
+    top: 10em;
+    left: 27%;
+}
+#in{
+    position: absolute;
+    top: 10em;
+    left: 50%;
+}
+#up {
+    position: absolute;
+    top: 10em;
+    left: 60%;
+}
+#barra{
+        position: absolute;
+        width: 5%;
+        height: 4%;
+        top: 13em;
+        left: 6%;
+}
+#pesquisa{
+    position: absolute;
+        top: 13em;
+        left: 13%;
+}
+#cd{
+    position: absolute;
+    width: 10%;
+    top: 17em;
+    left: 20%;
+}
+#preco1{
+    position: absolute;
+    width: 10%;
+    top: 17em;
+    left: 20%;
+}
+#h4{
+    position: absolute;
+    width: 10%;
+    top: 16em;
+    left: 35%;
+}
+#p{
+    position: absolute;
+    width: 10%;
+    top: 18em;
+    left: 35%;
+}
+
+#nirvana{
+    position: absolute;
+    top: 30em;
+    left: 20%;
+}
+#ni{
+        position: absolute;
+        width: 13%;
+        top: 18em;
+        left: 20%;
+}
+#nir{
+    position: absolute;
+    width: 13%;
+
+    top: 30em;
+    left: 20%;
+}
+
+#nirvana2 {
+    position: absolute;
+    top: 30em;
+    left: 45%;
+}
+#ni2 {
+    position: absolute;
+    width: 13%;
+    top: 18em;
+    left: 45%;
+}
+#nir2 {
+    position: absolute;
+    width: 13%;
+    top: 30em;
+    left: 45%;
+}
+#cor {
+    background-color: gray;
+    position: absolute;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    top: 16em;
+}
+
+#botao{
+    background-color: gray;
+    position: absolute; 
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    top: 16em;
+}
+
+#signin{
+    position: absolute;
+    top: 6em;
+    left: 26%;
+    width: 50%;
+    height: 4%;
+}
+#usuario{
+    position: absolute;
+    top: 10em;
+    left: 26%;
+    width: 50%;
+    height: 4%;
+}
+#password{
+    position: absolute;
+    top: 14em;
+    left: 26%;
+    width: 50%;
+    height: 4%;
+}
+
+#face2{
+    position: absolute;
+    width: 5%;
+    height: 4%;
+    top:17em;
+    left: 27%;
+}
+#goo2{
+    position: absolute;
+    width: 5%;
+    height: 4%;
+    top: 17em;
+    left: 45%;
+}
+
+#tw2{
+    position: absolute;
+    width: 5%;
+    height: 4%;
+    top: 17em;
+    left: 63%;
+}
+#h5{
+    position: absolute;
+    top: 15em;
+    left:28%
+}
+#join{
+        position: absolute;
+        top: 29em;
+        left:41%
+
+}
